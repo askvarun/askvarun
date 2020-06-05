@@ -277,6 +277,7 @@ var main = (function () {
                 this.handleSidenav(event);
                 this.cmdLine.value = "cat " + file + " ";
                 this.handleCmd();
+                
             }.bind(this, file);
             element.appendChild(document.createTextNode(capFirst(file.replace(/\.[^/.]+$/, "").replace(/_/g, " "))));
             this.sidenav.appendChild(element);
@@ -365,6 +366,9 @@ var main = (function () {
     Terminal.prototype.handleCmd = function () {
         var cmdComponents = this.cmdLine.value.trim().split(" ");
         this.lock();
+        gtag('event', 'userInput', cmdComponents.toLocaleString());
+        //console.log('userInput',cmdComponents.toLocaleString());
+
         switch (cmdComponents[0]) {
             case cmds.CAT.value:
                 this.cat(cmdComponents);

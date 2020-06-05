@@ -58,8 +58,8 @@ var configs = (function () {
         accesible_cores: "Accessible cores",
         language: "Language",
         value_token: "<value>",
-        host: "varun.gupta.zone",
-        user: "visitor",
+        host: "client",
+        user: "guest",
         is_root: false,
         type_delay: 20
     };

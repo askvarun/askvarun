@@ -36,7 +36,7 @@ var configs = (function () {
         (Imagine it in Bond style)
         :)
         
-        I am a Geek and Software Developer, who loves to experiment with new tchnologies and cool projects.
+        I am a Geek and Software Developer, who loves to experiment with new technologies and cool projects.
         You can know more in about.md file just type 
         'cat about.md'
 
@@ -94,14 +94,14 @@ var files = (function () {
         (Imagine it in Bond style)
         :)
         
-        I am a Geek and Software Developer, who loves to experiment with new tchnologies and cool projects.
+        I am a Geek and Software Developer, who loves to experiment with new technologies and cool projects.
 
-        I Love working on video technologies and developing high performing distributed acrchitectures.
-        Recently i have developed a Plugable Video Conferecing engine that can be integrated in any application.
+        I Love working on video technologies and developing high performing distributed architectures.
+        Recently i have developed a Plugable Video Conferencing engine that can be integrated in any application.
         
-        Soon i will be adding a works and technologies file listing out my projects and my faveriote technologies.
+        Soon i will be adding a works and technologies file listing out my projects and my favorite technologies.
 
-        As this is a personal site, son might not be so soon.
+        As this is a personal site, soon might not be so soon.
 
         ==========================================================================
         ******************* End of File

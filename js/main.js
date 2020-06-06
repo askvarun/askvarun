@@ -366,7 +366,7 @@ var main = (function () {
     Terminal.prototype.handleCmd = function () {
         var cmdComponents = this.cmdLine.value.trim().split(" ");
         this.lock();
-        gtag('event', 'userInput', cmdComponents.toLocaleString());
+        gtag('event', 'userInput', {'dimension_name': cmdComponents.toLocaleString()});
         //console.log('userInput',cmdComponents.toLocaleString());
 
         switch (cmdComponents[0]) {
